@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Source+Sans+Pro:wght@200&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.no-pad {
+    padding: 0;
+}
+
+.nav-sec {
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px 0;
+}
+
+.nav-sec .container {
+    padding: 0;
+}
+
+.logo {
+    display: inline-block;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex: auto;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+nav a {
+    color: #03815e;
+    font-size: 18px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    text-align: right;
+    align-items: center;
+    justify-content: end;
+    margin: 4px;
+}
+
+nav a:hover {
+    color: #e90606;
+    text-decoration: none;
+}
+
+
+.banner-content {
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    top: 210px;
+}
+
+.hero-banner-main h1 {
+    font-size: 42px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.hero-banner-main button {
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 10px 35px;
+}
+
+.hero-banner-main button:hover {
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 10px 35px;
+}
+
+
+.banner-content.hero-container {
+    margin: 20px 0 60px;
+}
+
+.hero-package-main .price {
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.products {
+   margin: 20px auto 50px;
+}
+.products h2 {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 200;
+    line-height: normal;
+    color: #03815e;
+    margin: 30px auto 10px;
+}
+.prd {}
+
+.prd button {
+    border: 1px solid #03815e;
+    background-color: transparent;
+    color: #03815e;
+    margin: 5px 0;
+}
+
+.prd button:hover {
+    border: none;
+    background-color: #e90606;
+    color: white;
+    margin: 5px 0;
+}
+
+.box img {
+    width: 100%;
+    height: 150px;
+    margin: 10px 0;
+}
+
+.footer {
+    background-color: #03815e;
+    font-size: 12px;
+    color: white;
+    padding: 15px 0;
+}
+
+.footer hr {
+    background-color: white;
+    width: 100%;
+}
+
+.logos {
+    display: flex;
+    align-items: center;
+}
+
+.ultra {
+    display: flex;
+    justify-content: left;
+    padding: 0;
+}
+
+.copy {
+    display: inline-block;
+}
+
+.terms {
+    display: inline-block;
+    float: right;
+    text-align: right;
+}
+
+.terms a {
+    color: white;
+    text-decoration: none;
+}
+
+form {
+    width: 40%;
+    background-color: rgb(228, 227, 227);
+    border-radius: 10px;
+    margin: 50px auto;
+    text-align: center;
+    padding: 15px;
+}
+.signups{display: flex;justify-content: space-around;}
+.signups a {color:#03815e;font-size: 14px;}
+.signups a:hover {text-decoration: none;color: #e90606;}
+form h2{    
+    font-size: 24px;
+    margin: 20px;
+    font-weight: normal;}
+label {
+    width: 33%;
+    text-align: left;
+}
+center input{
+    width: 30%;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #03815e;
+    color: white;
+}
+input[type="text"] {
+    width: 40%;
+    border: none;
+    border-radius: 2px;
+    background-color: #f9f9f9;
+}
+input#email, input#pass, input#phone {
+    width: 40%;
+    border: none;
+    border-radius: 2px;
+    background-color: #f9f9f9;
+}
+:focus-visible {outline: none;}
+
+#prod-cart{min-height: 768px;}
+#prod-cart center input {
+    width: 30%;
+    border: none;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: #03815e 1px solid;
+    color: #03815e;
+    background-color: transparent;
+    border-radius: 0;
+}
+#prod-cart center input:hover {
+    border: none;
+    background-color: #e90606;
+    color: white;
+}
+#prod-cart button{
+    border: 1px solid #03815e;
+    background-color: transparent;
+    margin: 5px 0;
+    padding: 10px 35px;
+    font-size: 18px;
+}
+#prod-cart a{
+    color: #03815e;
+}
+#prod-cart button:hover {
+    border: none;
+    background-color: #e90606;
+    color: white;
+}
+#prod-cart a:hover {
+    text-decoration: none;
+    color: white;
+}
+.prd-cart-dis{margin:50px auto 0;}
+.prd-des-hd{display: flex;justify-content: space-around;}
+.prd-des {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 1px solid #f9f9f9;
+    padding: 15px 0;
+}
+.prd-des img{width:10%; display: inline;}
+
+@media (min-width: 1200px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl {
+        max-width: 1170px;
+    }
+}
+
+@media only screen and (min-width: 1681px) and (max-width: 1920px) {}
+
+@media only screen and (min-width: 1441px) and (max-width: 1680px) {}
+
+
+@media only screen and (min-width: 800px) and (max-width: 992px) {}
+
+@media only screen and (min-width: 768px) and (max-width: 799px) {}
+
+@media only screen and (min-width: 600px) and (max-width: 767px) {}
+
+@media only screen and (min-width: 480px) and (max-width: 599px) {}
+
+@media only screen and (min-width: 320px) and (max-width: 414px) {
+    .hero-container {
+        background-size: 91%;
+        background-position: right top;
+    }
+
+    .hero-banner-main {
+        height: 640px;
+    }
+
+    .logo {
+        justify-content: center;
+        display: flex;
+    }
+
+    .copy {
+        display: block;
+        text-align: center;
+    }
+
+    .terms {
+        display: block;
+        text-align: center;
+    }
+}
